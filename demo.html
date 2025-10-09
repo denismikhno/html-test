@@ -6,6 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="/test">
+
+        <label for="email">Введите email:</label>
+        <input type="email" placeholder="Email пользователя" id="email"/>
+        <label for="password">Введите пароль:</label>
+        <input type="password" placeholder="Пароль пользователя" id="password"/>
+        <label for="date">Введите дату рождения:</label>
+        <input type="date" placeholder="Дата рождения пользователя" id="date"/>
+        <label for="color">Выберите цвет:</label>
+        <input type="color" id="color"/>
+
+        <label>
+            <!-- в span уже можем стилизовать -->
+            <span>Введите число:</span>
+            <input type="number" placeholder="Число"/>
+        </label>
+        
+    </form>
 </body>
 </html>
