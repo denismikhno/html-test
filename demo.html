@@ -22,7 +22,24 @@
             <span>Введите число:</span>
             <input type="number" placeholder="Число"/>
         </label>
-        
+
+        <!-- кнопка внутри формы будет работать как Submeet т.е отправлять форму -->
+        <!-- при таком способе можно стилизовать текст -->
+         <!-- да и читаемость кода с button лучше чем с input -->
+        <button><span>Кнопка внутри формы</span></button>
+        <button type="button">Это тоже кнопка внутри формы</button>
+        <button type="submit">Отправить форму</button>
+        <button type="reset">Сбросить форму</button>
+
+        <!-- альтернативный способ создания кнопки -->
+        <!-- Здесь не получится стилизовать текст -->
+        <input type="button" value="Кнопка Input">
+        <input type="submit" value="Кнопка Submit">
+
     </form>
+
+    <!-- это будет просто кнопка -->
+    <button>Кнопка вне формы</button>
+
 </body>
 </html>
